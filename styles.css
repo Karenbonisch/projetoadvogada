@@ -1,0 +1,61 @@
+.kind{ /*cx de texto*/
+   
+    background-color: rgba(225, 184, 184, 0.989); /* cx de texto, cores, ta,amanho, sombreamento*/
+    width: 200px; /* tamanho da caixa*/
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /*cor de fundo da div*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    /*breites des innenabstand, espaco na lateral*/
+    padding: 30px;
+    padding-top: 10px;
+    /*margens. Para centralizar left e rigth em auto*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    justify-content: center;
+}
+.eltern{
+    /* stellt kinder nebeneinander, coloca as cx uma do lado da outra*/
+    display: flex;
+    /*die kinder auseinander stehen sollen*/
+    justify-content: space-between;
+    /* abstand zuwichen kinder, espaco entre as caixas, so funciona com o flex*/
+    gap: 30px;
+    /*kinder auf vertikale Achse bewege*/
+    padding: 0 30px; /* espaco a direita e esquerda, outra opcao de paddinf left e right*/
+    
+}
+.mittel{
+        text-align: center;
+  }
+
+h2{
+    color:rgb(45, 7, 160);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*hero, utilizado qdo tem foto e texto. usei na foto da profissional e texto a frente */
+.hero{
+    display: flex; /* nebeneinander */
+    padding-left: 50px; /* espaco lateral esquerda */
+    padding-right: 80px;
+    gap: 50px; /* entre as div espacamento, so funciona com flex */
+    align-items: center; /*vertical*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    } 
+
+.hero img { /* trabalha a foto desta classe, fot da profissional*/
+    width: 300px;
+}    
+
+.hero p{ /* trabalha o texto do elemento p mas somente desta classe*/ 
+    font-size: 20px;
+}
+
+.unter_mittel{
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
