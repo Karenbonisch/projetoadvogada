@@ -1,0 +1,10 @@
+footer{ /* configuracao do rodape*/
+    background-color: rgba(24, 7, 75);
+    color:white;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
