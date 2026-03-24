@@ -1,0 +1,17 @@
+footer{ 
+    /* configuracao do rodape*/
+    background-color: rgba(24, 7, 75);
+    color:white;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex; /*coloca as div lado a lado: o mapa do lado do texto*/
+    justify-content: center; /**/
+    gap: 100px; /*espaco entre mapa e texto*/
+}
+footer a{
+    color:white;
+}
