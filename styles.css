@@ -1,0 +1,136 @@
+.kind{ /*cx de texto com as areas de atendimento*/
+   
+    /* formatacao da kind, cores, tamanho, sombreamento*/
+    background-color: rgb(229, 237, 248); 
+    width: 220px; /* tamanho da caixa*/
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /*cor de fundo da div*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    /*breites des innenabstand, espaco na lateral*/
+    padding: 30px;
+    padding-top: 10px;
+    /*margens. Para centralizar left e rigth em auto*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 15px; /* borda da caixa*/
+    justify-content: center;
+    height: 150px;
+  
+}
+/*classe para manter o tamando das caixas kind padronizados, no java chama esta classe */
+.gross{
+    height: 350px;
+}
+
+/* esta classe mantem o tamanho e posicao das kind na pagina*/
+.eltern{
+    /* stellt kinder nebeneinander, coloca as cx uma do lado da outra*/
+    display: flex;
+    /*die kinder auseinander stehen sollen*/
+    justify-content: space-between;
+    /* abstand zuwichen kinder, espaco entre as caixas, so funciona com o flex*/
+    gap: 30px;
+    /*kinder auf vertikale Achse bewege*/
+    padding: 0 30px; /* espaco a direita e esquerda, outra opcao de paddinf left e right*/
+    align-items: flex-start; //* manter cx padronizadas */
+    
+}
+.mittel{
+        text-align: center;
+  }
+
+h2{
+    color:rgba(24, 7, 75, 0.831);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*hero, utilizado qdo tem foto e texto. usei na foto da profissional e texto a frente */
+.hero{
+    display: flex; /* nebeneinander */
+    padding-left: 50px; /* espaco lateral esquerda */
+    padding-right: 80px;
+    gap: 50px; /* entre as div espacamento, so funciona com flex */
+    align-items: center; /*no centro em relacao a iamgem lateral*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    justify-content: space-between;
+   
+    } 
+
+.hero img { /* trabalha a foto desta classe, fot da profissional*/
+    width: 300px;
+    /*pegar modelos de sombreamento https://getcssscan.com/css-box-shadow-examples*/
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px; /*canto arredondado*/
+}    
+
+.hero p{ /* trabalha o texto do elemento p mas somente desta classe*/ 
+    font-size: 20px;
+}
+
+.hero li{
+    font-size: 20px;
+
+}
+.unter_mittel{
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.escritorio{
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.versteck{
+    display: none;
+}
+
+   /*classe para menu superior com links*/
+    .menu{
+            background-color: rgb(229, 237, 248); 
+            display: flex;
+            justify-content: center;
+            color: azure;
+            padding: 5px;
+            align-items: center;
+            text-align: center;
+        }    
+    /*links no menu superior*/
+    .menulista{    
+            display: flex;
+            gap: 30px;
+            list-style: none; 
+            align-self: flex-end;
+            color: aliceblue; /* cor do link */
+            text-decoration: none; /* sem linha abaixo do texto */       
+               
+        }
+        /*cor do link*/
+    .menulista a{
+        color:rgba(24, 7, 75);
+    }
+
+    form{ /*classepara formulario em contatos*/
+        background-color: rgb(229, 237, 248); 
+        width: 800px; /* tamanho da caixa*/
+        height: 300px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        /*cor de fundo da div*/
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        /*breites des innenabstand, espaco na lateral*/
+        padding: 30px;
+        padding-top: 10px;
+        /*margens. Para centralizar left e rigth em auto*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        border-radius: 15px; /* borda da caixa*/
+        justify-content: left;   
+
+        }
+
+     
