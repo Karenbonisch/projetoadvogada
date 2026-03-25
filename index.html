@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivete Petek - Advocacia Especializada</title> <!--titulo que aparece na aba da pagina-->
+    <link rel="stylesheet" href="styles.css"> <!--chama a clase styles-->
+    <link rel="stylesheet" href="header.css"> <!--chama a classe header, cabecalho-->
+    <link rel="stylesheet" href="footer.css"> <!--chama a classe footer rodape-->
+</head>
+<body>
+    <!--Cabecalho-->
+    <header>
+        <div>
+        <img src="Bilder/logo.png" alt="Logo"> <!--logo-->
+        </div>
+        <h1>Ivete Petek – Advocacia Especializada</h1> <!--texto do cabecalho-->
+                          
+    </header>
+    <!--teste para menu-->
+    <div class="menu">
+        <!--lista para incluir menu-->
+            <ul class="menulista">
+                <!-- links -->
+                 <li><a href="#areas">Áreas de Atuação</a></li> 
+                 <li><a href="#escritorio">Atendimento</a></li>
+                 <li><a href="#endereco">Endereço</a></li> <!--# chama id endereco-->
+                 <li><a href="contato.html">Entre em Contato</a></li>
+      
+            </ul>
+    </div>
+    <div class="mittel"> <!--texto abaixo do header-->
+        <br> <!--espaco, pula uma linha-->
+        <h2>Bem-vindo. Aqui, o seu caso é tratado com dedicação, estratégia e atenção personalizada.</h2>
+        <br>
+        <div class="hero"> <!--classe usada qdo tem foto e texto-->
+            <img src="Bilder/foto2.jpg" alt="Foto"> <!--imagem da profissional-->
+       
+            <p>Ivete Petek é advogada atuante em Direito Civil, com abordagem estratégica, ética e foco em resultados. 
+                <br><br>
+                Possui experiência em Direito de Família, Inventários e Divórcios, oferecendo assessoria completa nas 
+                esferas preventiva e contenciosa. <br><br>
+                Seu trabalho é pautado na escuta atenta, transparência e busca por soluções seguras e eficientes, 
+                sempre direcionadas à melhor resolução de cada caso, especialmente em questões familiares e patrimoniais.
+                <br><br><br><br>
+            Atuação nas seguintes áreas: </p>
+        </div>
+        <br> <!--espaco entre foto e caixas -->
+    </div>
+    <!--Eltern div-->
+    <div class="eltern" id="areas"> <!--div q contrm as caixas com as especialidades-->
+            <!--kind1 div-->
+        <div class="kind" onclick="boxclick(event)"><!--chama a funcao java para esconder texto e voltar texto-->
+            <h2>Direito Civil</h2>
+            <p class="weg">Clique para mais informações</p> <!--classe weg, na funcao chama para esconder este texto p -->
+                <div class="versteck"> <!--classe versteck esconde o texto-->
+                <ul>
+                    <li>Atuação em conflitos entre pessoas físicas e jurídicas</li><br>
+                    <li>Responsabilidade civil (indenizações por danos morais e materiais)</li><br>
+                    <li>Cobranças judiciais e extrajudiciais</li><br>
+                    <li>Análise e orientação em obrigações contratuais</li></ul>
+                </div>
+            </p>
+        </div>
+
+        <!--Kind2 div, caixa 2 é uma div-->
+        <div class="kind" onclick="boxclick(event)"><!--chama a funcao java para esconder texto e voltar texto-->
+            <h2>Direito de Família</h2>
+            <p class="weg">Clique para mais informações</p> <!--classe weg, na funcao chama para esconder este texto p -->
+                <div class="versteck"> <!--classe versteck esconde o texto-->
+                    <p>
+                        <ul>
+                            <li>Orientação em questões familiares e patrimoniais</li><br>
+                            <li>Regulamentação de guarda e convivência</li><br>
+                            <li>Pensão alimentícia (fixação, revisão e exoneração)</li><br>
+                            <li>Mediação de conflitos familiares</li>
+                        </ul>
+                    </p>
+                </div>
+        </div>
+
+          <!--Kind3 div-->
+          <div class="kind" onclick="boxclick(event)">
+            <h2>Inventário <br> (judicial e extrajudicial)</h2>
+            <p class="weg">Clique para mais informações</p> <!--classe weg, na funcao chama para esconder este texto p -->
+            <div class="versteck">
+            <p>
+               <ul>
+                <li>Abertura e acompanhamento de inventário judicial</li><br>
+                <li>Realização de inventário em cartório (extrajudicial)</li><br>
+                <li>Partilha de bens de forma segura e legal</li><br>
+                <li>Regularização de patrimônio e documentação</li>
+               </ul>     
+            </p>
+        </div>
+        </div>
+
+         <!--kind4 div-->
+         <div class="kind" onclick="boxclick(event)">
+            <h2>Divórcio (consensual e litigioso)</h2>
+            <p class="weg">Clique para mais informações</p> <!--classe weg, na funcao chama para esconder este texto p -->
+            <div class="versteck">
+            <p>
+               <ul>
+                <li>Divórcio amigável rápido e simplificado</li><br>
+                <li>Atuação em divórcio litigioso</li><br>
+                <li>Definição de guarda, pensão e partilha de bens</li><br>
+                <li>Assessoria completa em todas as etapas do processo</li> 
+              </ul>     
+            </p>
+        </div>
+        </div>
+        <!--Kind5 div
+        <div class="kind">
+            <h2>Direito xxx</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quo dolores velit debitis impedit natus vero assumenda itaque minima vitae? Fugit obcaecati voluptatem dolore quidem? Provident, eos! Excepturi, laborum culpa.</p>
+        </div>-->
+        
+    </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <div class="hero" id="escritorio"> 
+    <!--classe hero usada qdo tem foto e texto, id escritorio o link no header chama para este espaco-->
+        <p>
+                No Atendimento como advogada, recebo cada cliente com atenção, respeito e sensibilidade. 
+                Meu espaço de trabalho foi pensado para transmitir segurança e tranquilidade, 
+                proporcionando um ambiente acolhedor onde você pode se sentir à vontade para compartilhar 
+                suas necessidades e preocupações. <br><br>
+                
+                Atendimento Personalizado e Humanizado<br><br>
+                Compromisso e Ética<br><br>
+                Sigilo e Confiança<br><br>
+                Entre em contato e terei satisfação em lhe atender.
+            
+        </p> 
+            <img src="Bilder/foto escritorio1.png" alt="Foto"> <!--imagem do escritorio-->
+        <br>
+   </div>
+   <!--classe para frase abaixo das caixas e antes do rodape-->
+    <div class="unter_mittel">
+        <br>
+        <p>Mais que um serviço jurídico, ofereço um atendimento ético, responsável e comprometido 
+            com a sua segurança e tranquilidade em todos os momentos.</p><br>
+    </div>  
+    <!--Botao link whatsapp, classe whatsapp-->
+       <a href="https://wa.me/5518998184272" target="_blank" class="whatsapp">
+      💬<span>
+         WhatsApp 
+      </span>
+    </a>
+    
+   
+    <!--footer rodape-->
+    <footer id="endereco"> <!--classe footer tem os detalhes-->  
+        <div>
+            <h3>Endereço:</h3>
+            <!--mapa google-->  
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.6955480137517!2d-51.53683762355833!3d-21.48045938028437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94913b104a9ec5ef%3A0x715bc8e26dd7a2a9!2sIvete%20Petek%20Advogada!5e0!3m2!1sde!2sde!4v1774342829914!5m2!1sde!2sde" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+            <br>
+            <!-- link para escrever comentário-->
+            <a href="https://search.google.com/local/writereview?placeid=ChIJ78WeShA7kZQRqaLXbeLIW3E" target="_blank"> Escreva seu Depoimento</a>
+            <br>
+            <br>
+        </div>
+     <div> <!-- Endereco-->
+        <p>Ivete Petek – Advocacia Especializada</p>
+        <p>Rua Magid Zacarias, 453, Sala 6 – Jardim Kennedy <br>
+        DRACENA-SP– CEP 17900-095</p>
+        <p>Telefone: (18) 99818-4272</p>
+        <p>E-mail: ivetepetek9@gmail.com</p>
+      </div>
+    </footer>
+  <script src="script.js"></script> <!--chamar java-->
+</body>
+</html>
