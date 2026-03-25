@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivete Petek - Advocacia Especializada</title> <!--titulo que aparece na aba da pagina-->
+    <link rel="stylesheet" href="styles.css"> <!--chama a clase styles-->
+    <link rel="stylesheet" href="header.css"> <!--chama a classe header, cabecalho-->
+    <link rel="stylesheet" href="footer.css"> <!--chama a classe footer rodape-->
+</head>
+<body>
+ <!--Cabecalho-->
+ <header>
+    <div>
+    <img src="Bilder/logo.png" alt="Logo"> <!--logo-->
+    </div>
+    <h1>Ivete Petek – Advocacia Especializada</h1> <!--texto do cabecalho-->
+                   
+</header>
+<div class="menu">
+    <!--lista para incluir menu-->
+        <ul class="menulista">
+            <!-- link para voltar home -->
+             <li><a href="index.html">Home</a></li>
+  
+        </ul>
+</div>
+<div class="mittel"> <!--texto abaixo do header-->
+    <br> <!--espaco, pula uma linha-->
+    <h2>"Tem alguma dúvida? Terei prazer em ajudá-lo(a).Envie sua mensagem através do formulário. <br>
+        Atendimento em horário comercial, com retorno o mais breve possível."</h2>
+    <br>
+
+    <!--formulario https://formspree.io/   abrir conta, criar projeto, -->
+   <!-- classe form em styles para formatacao -->
+
+        <form action="https://formspree.io/f/mdawqyjz"
+        method="POST">
+       <!--estilos na div form e label para manter padrao-->
+        <div>
+            <label for="Nome">Nome:</label>
+            <input type="text" id="Nome" name="Nome" size="40">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" size="40" required></div>
+        <div>
+            <label for="Telefone">Telefone:</label>
+            <input type="text" id="Telefone" name="Telefone" size="20">
+        </div>
+        <div>  
+            <label for="Pergunta">Sua Mensagem:</label>
+            <textarea name="Pergunta" id="Pergunta" cols="60" rows="10"></textarea> 
+        </div>
+        <button>
+            Enviar
+        </button>
+   
+    
+    </form>
+
+<!--Rodape-->
+    <footer id="endereco"> <!--classe footer tem os detalhes-->  
+        <div>
+        <h3>Endereço:</h3>
+         <!--mapa google-->  
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.6955480137517!2d-51.53683762355833!3d-21.48045938028437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94913b104a9ec5ef%3A0x715bc8e26dd7a2a9!2sIvete%20Petek%20Advogada!5e0!3m2!1sde!2sde!4v1774342829914!5m2!1sde!2sde" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <br>
+      <!-- link para escrever comentário-->
+        <br>
+        <a href="https://search.google.com/local/writereview?placeid=ChIJ78WeShA7kZQRqaLXbeLIW3E" target="_blank"> Escreva seu Depoimento</a>
+        <br><br></div>
+     <div> <!-- Endereco-->
+        <p>Ivete Petek – Advocacia Especializada</p>
+        <p>Rua Magid Zacarias, 453, Sala 6 – Jardim Kennedy <br>
+        DRACENA-SP– CEP 17900-095</p>
+        <p>Telefone: (18) 99818-4272</p>
+        <p>E-mail: ivetepetek9@gmail.com</p>
+      </div>
+    </footer>
+</body>
+</html>
